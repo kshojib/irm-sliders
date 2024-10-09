@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -60,7 +62,7 @@
 }
 .sliderTop .sliderTop_text .sliderTop_title {
 	font-size: 1.875em;
-	font-family: "almoni", Sans-serif;
+	font-family: "Heebo", Sans-serif;
 	overflow: hidden;
 	color:#fff;
 }
@@ -74,7 +76,7 @@
   	opacity: 0;
 }
 .sliderTop .sliderTop_text .sliderTop_center {
-	font-family: "almoni", Sans-serif;
+	font-family: "Heebo", Sans-serif;
 	font-weight: 500;
 	margin-bottom: 20px;
 	opacity: 0;
@@ -82,7 +84,7 @@
 	/*margin-top: 8px;*/
 }
 .sliderTop .sliderTop_text .sliderTop_description {
-	font-family: "almoni", Sans-serif;
+	font-family: "Heebo", Sans-serif;
 	font-weight: 300;
 	margin-bottom: 35px;
 	opacity: 0;
@@ -101,7 +103,7 @@
 	max-width: 150px;
 	height: 150px;
 	margin-left: 15px;
-	font-family: "almoni", Sans-serif;
+	font-family: "Heebo", Sans-serif;
 	font-weight: 300;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -541,7 +543,7 @@
     font-weight: 300;
 }
 .sliderTop .sliderTop_text .sliderTop_description{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .sliderTop_link{
@@ -711,4 +713,10 @@ html[lang="en-US"] .sliderTop .swiper-navigation-container {
 
 .sliderTop_logo {
     margin-top: 50px;
+}
+html[lang="en-US"]  .sliderTop .sliderTop_text .sliderTop_title,
+html[lang="en-US"]  .sliderTop .sliderTop_text .sliderTop_center,
+html[lang="en-US"]  .sliderTop .sliderTop_text .sliderTop_description ,
+html[lang="en-US"]  .sliderTop_button{
+	font-family: "Open Sans", sans-serif;
 }
