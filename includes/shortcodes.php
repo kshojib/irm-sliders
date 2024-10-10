@@ -40,6 +40,28 @@ function irm_slider_shortcode( $atts ) {
 					?>
 
 					<div class="swiper-slide">
+						<div class="swiper-line-animation">
+							<!-- Top part -->
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<!-- Bottom part -->
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+						</div>
 						<a href="#" class="sliderTop_link">
 
 							<?php if ($media_type == 'image'): ?>
